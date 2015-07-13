@@ -17,7 +17,7 @@
       <tr>
         <td><%= best_in_place user, :name %></td>
         <td><%= best_in_place user,:dob,:type => :datetime %></td>
-        <td><%= best_in_place user, :age,as: :number %></td>
+        <td><%= best_in_place user, :age %></td>
         <td><%= link_to 'Show', user %></td>
         <td><%= link_to 'Edit', edit_user_path(user) %></td>
         <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
